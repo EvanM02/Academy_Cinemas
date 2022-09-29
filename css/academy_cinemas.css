@@ -53,3 +53,6 @@
     color: rgb(119, 3, 3);
     background-color: darkgrey;
 }
+img, svg {
+    border-radius: 7px;
+}
