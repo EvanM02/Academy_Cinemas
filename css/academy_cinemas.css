@@ -1,58 +1,88 @@
-.button {
-    border-radius: 8px;
-    border: 0px;
-    margin-top: 1mm;
-}
-.modal-title {
-    padding-left: 80px;
-}
-.button:hover{
-    color: darkred;
-}
-
 .nav-item {
-    margin-left: 70px;
-    position: relative;
-}
-.btn-group{
-    margin-left: 82.3%;
-}
-.dropdown{
-    margin-left: 50px;
-    border: 0px;
+  margin-left: 70px;
+  position: static;
 }
 
-/*DIALOG BOX */
-#Main_b {
-    position: absolute;
-    z-index: 1;
-    margin-left: 5in;
-    margin-top: 2in;
-    border-radius: 8px;
+/*DropDown Website Menu Styles*/
+.btn {
+  border-width: 2px !important;
+  color: black !important;
+  border-color: black !important;
+  background-color: transparent !important;
+  font-weight: 500 !important;
 }
 
-#Dialog {
-    width: 4in;
-    height: 50mm;
-    border-radius: 8px;
-    border-color: rgb(206, 206, 206);
-    border-width: 4px;
-    border-style:ridge;
-    box-shadow: 1px 1px rgb(122, 120, 120);
+.btn:hover {
+  background-color: black;
 }
 
-#words {
-    color: black;
+.dropdown {
+  margin-left: 50px;
+  border: 0px;
+}
+.dropdown-menu {
+  transition: all 0.5s ease-in-out;
+  background-color: rgb(79, 165, 240) !important;
+  box-shadow: 4px 4px black;
 }
 
-#words:hover {
-    color: darkolivegreen;
+.dropdown-item {
+  animation: 2s fadeInn !important ;
+  animation-fill-mode: forwards !important ;
+  visibility: hidden;
+  color: rgb(0, 0, 0) !important ;
+}
+@keyframes fadeInn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
 }
 
-#hide:hover {
-    color: rgb(119, 3, 3);
-    background-color: darkgrey;
+/* Movie Times Buttons */
+.button {
+  border-radius: 8px;
+  border: 0px;
+  margin-top: 1mm;
+  box-shadow: 3px 3px rgb(4, 62, 81);
 }
-img, svg {
-    border-radius: 7px;
+.button:hover {
+  background-color: lightblue !important;
+  color: black !important;
+}
+.button:active {
+  box-shadow: 0px 0px;
+}
+
+.btn-group {
+  margin-left: 82.3%;
+}
+
+/* Popup Form Heading Styling */
+.modal-header h5 {
+  text-align: center;
+}
+
+/* Movie Poster Image Styling */
+img,
+svg {
+  border-radius: 7px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
