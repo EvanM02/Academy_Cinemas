@@ -48,6 +48,7 @@
   border: 0px;
   margin-top: 1mm;
   box-shadow: 3px 3px rgb(4, 62, 81);
+  margin-bottom: 2px;
 }
 .button:hover {
   background-color: lightblue !important;
@@ -85,4 +86,37 @@ svg {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* Media Queries For Portland Image On Smaller Screens */
+@media screen and (max-width: 434px) {
+  #portland_image img {
+    width: 380px;
+  }
+}
+@media screen and (max-width: 407px) {
+  #portland_image img {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #portland_image img {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 369px) {
+  #portland_image img {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 352px) {
+  #portland_image img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 319px) {
+  #portland_image img {
+    width: 280px;
+  }
 }
