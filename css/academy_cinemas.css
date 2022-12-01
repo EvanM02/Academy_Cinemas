@@ -1,9 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-item {
   margin-left: 70px;
   position: static;
 }
 
-/*DropDown Website Menu Styles*/
+/*Dropdown Website Menu Styles*/
 .btn {
   border-width: 2px !important;
   color: black !important;
@@ -42,7 +46,7 @@
   }
 }
 
-/* Movie Times Buttons */
+/* Movie Times Buttons Styling */
 .button {
   border-radius: 8px;
   border: 0px;
